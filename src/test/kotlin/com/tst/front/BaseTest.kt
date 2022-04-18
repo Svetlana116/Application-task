@@ -50,7 +50,4 @@ open class BaseTest {
         Selenide.closeWindow()
         Selenide.closeWebDriver()
     }
-
-
-
 }

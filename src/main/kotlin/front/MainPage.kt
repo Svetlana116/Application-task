@@ -3,9 +3,7 @@ package front
 import com.codeborne.selenide.Condition
 import com.codeborne.selenide.Condition.visible
 import com.codeborne.selenide.Selenide
-import com.codeborne.selenide.Selenide.`$$`
 import com.codeborne.selenide.Selenide.`$`
-import com.codeborne.selenide.SelenideElement
 import front.Selectors.withClass
 import io.qameta.allure.Step
 import org.assertj.core.api.Assertions.assertThat
@@ -36,5 +34,4 @@ class MainPage {
             .click()
         return this
     }
-
 }

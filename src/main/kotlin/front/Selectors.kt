@@ -7,5 +7,4 @@ object Selectors {
     fun withClass(className: String): By {
         return By.cssSelector("[class*=$className]")
     }
-
 }
